@@ -1,0 +1,355 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F6B114F197D1600005A0BEF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6B114E197D1600005A0BEF /* UIKit.framework */; };
+		7F6B1151197D1600005A0BEF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6B1150197D1600005A0BEF /* Foundation.framework */; };
+		7F6B1153197D1600005A0BEF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F6B1152197D1600005A0BEF /* CoreGraphics.framework */; };
+		7F6B1159197D1600005A0BEF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B1157197D1600005A0BEF /* InfoPlist.strings */; };
+		7F6B115B197D1600005A0BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B115A197D1600005A0BEF /* main.m */; };
+		7F6B115F197D1600005A0BEF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B115E197D1600005A0BEF /* AppDelegate.m */; };
+		7F6B1161197D1600005A0BEF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B1160197D1600005A0BEF /* Default.png */; };
+		7F6B1163197D1600005A0BEF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B1162197D1600005A0BEF /* Default@2x.png */; };
+		7F6B1165197D1600005A0BEF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B1164197D1600005A0BEF /* Default-568h@2x.png */; };
+		7F6B1168197D1600005A0BEF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F6B1167197D1600005A0BEF /* ViewController.m */; };
+		7F6B116B197D1600005A0BEF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F6B1169197D1600005A0BEF /* ViewController.xib */; };
+		7F86A0D5197D16F10094EAE0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F86A0D4197D16F10094EAE0 /* MapKit.framework */; };
+		7F86A0D7197D17020094EAE0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F86A0D6197D17020094EAE0 /* libsqlite3.0.dylib */; };
+		7F86A0D9197D17980094EAE0 /* LocationLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F86A0D8197D17980094EAE0 /* LocationLib.framework */; };
+		7F86A0E3197D17F80094EAE0 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86A0DB197D17F80094EAE0 /* CategoryViewController.m */; };
+		7F86A0E4197D17F80094EAE0 /* CategoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86A0DC197D17F80094EAE0 /* CategoryViewController.xib */; };
+		7F86A0E5197D17F80094EAE0 /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86A0DE197D17F80094EAE0 /* LocationViewController.m */; };
+		7F86A0E6197D17F80094EAE0 /* LocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86A0DF197D17F80094EAE0 /* LocationViewController.xib */; };
+		7F86A0E7197D17F80094EAE0 /* SelectedCategoryListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86A0E1197D17F80094EAE0 /* SelectedCategoryListViewController.m */; };
+		7F86A0E8197D17F80094EAE0 /* SelectedCategoryListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F86A0E2197D17F80094EAE0 /* SelectedCategoryListViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F6B114A197D1600005A0BEF /* iPhoneJenkinsLibTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPhoneJenkinsLibTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6B114E197D1600005A0BEF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F6B1150197D1600005A0BEF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F6B1152197D1600005A0BEF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F6B1156197D1600005A0BEF /* iPhoneJenkinsLibTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iPhoneJenkinsLibTest-Info.plist"; sourceTree = "<group>"; };
+		7F6B1158197D1600005A0BEF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7F6B115A197D1600005A0BEF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F6B115C197D1600005A0BEF /* iPhoneJenkinsLibTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iPhoneJenkinsLibTest-Prefix.pch"; sourceTree = "<group>"; };
+		7F6B115D197D1600005A0BEF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F6B115E197D1600005A0BEF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F6B1160197D1600005A0BEF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F6B1162197D1600005A0BEF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		7F6B1164197D1600005A0BEF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7F6B1166197D1600005A0BEF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F6B1167197D1600005A0BEF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F6B116A197D1600005A0BEF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		7F86A0D4197D16F10094EAE0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7F86A0D6197D17020094EAE0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		7F86A0D8197D17980094EAE0 /* LocationLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocationLib.framework; path = iPhoneJenkinsLibTest/LocationLib.framework; sourceTree = "<group>"; };
+		7F86A0DA197D17F80094EAE0 /* CategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		7F86A0DB197D17F80094EAE0 /* CategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		7F86A0DC197D17F80094EAE0 /* CategoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryViewController.xib; sourceTree = "<group>"; };
+		7F86A0DD197D17F80094EAE0 /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		7F86A0DE197D17F80094EAE0 /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		7F86A0DF197D17F80094EAE0 /* LocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LocationViewController.xib; sourceTree = "<group>"; };
+		7F86A0E0197D17F80094EAE0 /* SelectedCategoryListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedCategoryListViewController.h; sourceTree = "<group>"; };
+		7F86A0E1197D17F80094EAE0 /* SelectedCategoryListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedCategoryListViewController.m; sourceTree = "<group>"; };
+		7F86A0E2197D17F80094EAE0 /* SelectedCategoryListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectedCategoryListViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F6B1147197D1600005A0BEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F86A0D7197D17020094EAE0 /* libsqlite3.0.dylib in Frameworks */,
+				7F86A0D5197D16F10094EAE0 /* MapKit.framework in Frameworks */,
+				7F6B114F197D1600005A0BEF /* UIKit.framework in Frameworks */,
+				7F86A0D9197D17980094EAE0 /* LocationLib.framework in Frameworks */,
+				7F6B1151197D1600005A0BEF /* Foundation.framework in Frameworks */,
+				7F6B1153197D1600005A0BEF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F6B113F197D1600005A0BEF = {
+			isa = PBXGroup;
+			children = (
+				7F6B1154197D1600005A0BEF /* iPhoneJenkinsLibTest */,
+				7F6B114D197D1600005A0BEF /* Frameworks */,
+				7F6B114B197D1600005A0BEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F6B114B197D1600005A0BEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B114A197D1600005A0BEF /* iPhoneJenkinsLibTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F6B114D197D1600005A0BEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F86A0D8197D17980094EAE0 /* LocationLib.framework */,
+				7F86A0D6197D17020094EAE0 /* libsqlite3.0.dylib */,
+				7F86A0D4197D16F10094EAE0 /* MapKit.framework */,
+				7F6B114E197D1600005A0BEF /* UIKit.framework */,
+				7F6B1150197D1600005A0BEF /* Foundation.framework */,
+				7F6B1152197D1600005A0BEF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F6B1154197D1600005A0BEF /* iPhoneJenkinsLibTest */ = {
+			isa = PBXGroup;
+			children = (
+				7F86A0DA197D17F80094EAE0 /* CategoryViewController.h */,
+				7F86A0DB197D17F80094EAE0 /* CategoryViewController.m */,
+				7F86A0DC197D17F80094EAE0 /* CategoryViewController.xib */,
+				7F86A0DD197D17F80094EAE0 /* LocationViewController.h */,
+				7F86A0DE197D17F80094EAE0 /* LocationViewController.m */,
+				7F86A0DF197D17F80094EAE0 /* LocationViewController.xib */,
+				7F86A0E0197D17F80094EAE0 /* SelectedCategoryListViewController.h */,
+				7F86A0E1197D17F80094EAE0 /* SelectedCategoryListViewController.m */,
+				7F86A0E2197D17F80094EAE0 /* SelectedCategoryListViewController.xib */,
+				7F6B115D197D1600005A0BEF /* AppDelegate.h */,
+				7F6B115E197D1600005A0BEF /* AppDelegate.m */,
+				7F6B1166197D1600005A0BEF /* ViewController.h */,
+				7F6B1167197D1600005A0BEF /* ViewController.m */,
+				7F6B1169197D1600005A0BEF /* ViewController.xib */,
+				7F6B1155197D1600005A0BEF /* Supporting Files */,
+			);
+			path = iPhoneJenkinsLibTest;
+			sourceTree = "<group>";
+		};
+		7F6B1155197D1600005A0BEF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B1156197D1600005A0BEF /* iPhoneJenkinsLibTest-Info.plist */,
+				7F6B1157197D1600005A0BEF /* InfoPlist.strings */,
+				7F6B115A197D1600005A0BEF /* main.m */,
+				7F6B115C197D1600005A0BEF /* iPhoneJenkinsLibTest-Prefix.pch */,
+				7F6B1160197D1600005A0BEF /* Default.png */,
+				7F6B1162197D1600005A0BEF /* Default@2x.png */,
+				7F6B1164197D1600005A0BEF /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F6B1149197D1600005A0BEF /* iPhoneJenkinsLibTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F6B116E197D1600005A0BEF /* Build configuration list for PBXNativeTarget "iPhoneJenkinsLibTest" */;
+			buildPhases = (
+				7F6B1146197D1600005A0BEF /* Sources */,
+				7F6B1147197D1600005A0BEF /* Frameworks */,
+				7F6B1148197D1600005A0BEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iPhoneJenkinsLibTest;
+			productName = iPhoneJenkinsLibTest;
+			productReference = 7F6B114A197D1600005A0BEF /* iPhoneJenkinsLibTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F6B1141197D1600005A0BEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = VL;
+			};
+			buildConfigurationList = 7F6B1144197D1600005A0BEF /* Build configuration list for PBXProject "iPhoneJenkinsLibTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7F6B113F197D1600005A0BEF;
+			productRefGroup = 7F6B114B197D1600005A0BEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F6B1149197D1600005A0BEF /* iPhoneJenkinsLibTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F6B1148197D1600005A0BEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F6B1159197D1600005A0BEF /* InfoPlist.strings in Resources */,
+				7F86A0E8197D17F80094EAE0 /* SelectedCategoryListViewController.xib in Resources */,
+				7F6B1161197D1600005A0BEF /* Default.png in Resources */,
+				7F86A0E4197D17F80094EAE0 /* CategoryViewController.xib in Resources */,
+				7F6B1163197D1600005A0BEF /* Default@2x.png in Resources */,
+				7F6B1165197D1600005A0BEF /* Default-568h@2x.png in Resources */,
+				7F6B116B197D1600005A0BEF /* ViewController.xib in Resources */,
+				7F86A0E6197D17F80094EAE0 /* LocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F6B1146197D1600005A0BEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F86A0E3197D17F80094EAE0 /* CategoryViewController.m in Sources */,
+				7F6B115B197D1600005A0BEF /* main.m in Sources */,
+				7F6B115F197D1600005A0BEF /* AppDelegate.m in Sources */,
+				7F86A0E7197D17F80094EAE0 /* SelectedCategoryListViewController.m in Sources */,
+				7F6B1168197D1600005A0BEF /* ViewController.m in Sources */,
+				7F86A0E5197D17F80094EAE0 /* LocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F6B1157197D1600005A0BEF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6B1158197D1600005A0BEF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7F6B1169197D1600005A0BEF /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F6B116A197D1600005A0BEF /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F6B116C197D1600005A0BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Value Labs";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Value Labs";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PROVISIONING_PROFILE = "3DA60F42-EE81-4E5F-AD5C-DB878DF12161";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F6B116D197D1600005A0BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Value Labs";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Value Labs";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "3DA60F42-EE81-4E5F-AD5C-DB878DF12161";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F6B116F197D1600005A0BEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Value Labs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPhoneJenkinsLibTest",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneJenkinsLibTest/iPhoneJenkinsLibTest-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneJenkinsLibTest/iPhoneJenkinsLibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3DA60F42-EE81-4E5F-AD5C-DB878DF12161";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7F6B1170197D1600005A0BEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Value Labs";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/iPhoneJenkinsLibTest",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iPhoneJenkinsLibTest/iPhoneJenkinsLibTest-Prefix.pch";
+				INFOPLIST_FILE = "iPhoneJenkinsLibTest/iPhoneJenkinsLibTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3DA60F42-EE81-4E5F-AD5C-DB878DF12161";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F6B1144197D1600005A0BEF /* Build configuration list for PBXProject "iPhoneJenkinsLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B116C197D1600005A0BEF /* Debug */,
+				7F6B116D197D1600005A0BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F6B116E197D1600005A0BEF /* Build configuration list for PBXNativeTarget "iPhoneJenkinsLibTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F6B116F197D1600005A0BEF /* Debug */,
+				7F6B1170197D1600005A0BEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F6B1141197D1600005A0BEF /* Project object */;
+}
